@@ -36,11 +36,11 @@ sudo dnf install python39 -y
 sudo dnf install python39-pip
 
 # Upgrade PIP
-
 sudo pip3 install --upgrade pip
 
-# Install GDown
+wait
 
+# Install GDown
 pip install gdown
 
 # Begin Google Drive TAK Server download
