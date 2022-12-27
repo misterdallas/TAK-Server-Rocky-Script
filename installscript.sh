@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo yum update -y
+
 echo "Running this script will install everything required to get a TAK Server operational within Rocky Linux. Some portions of the install may take a while. Please be patient."
 read -p "Press ENTER to begin."
 
