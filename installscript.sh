@@ -36,7 +36,7 @@ sudo pip3 install --upgrade pip
 
 # Install GDown
 
-sudo pip install gdown
+pip install gdown
 
 # Begin Google Drive TAK Server download
 
@@ -48,7 +48,7 @@ echo "WHAT IS YOUR FILE ID ON GOOGLE DRIVE?"
 echo "(Right click > Get Link > Allow Sharing to anyone with link > Open share link > 'https://drive.google.com/file/d/<YOUR_FILE_ID_IS_HERE>/view?usp=sharing')"
 read FILE_ID
 
-sudo gdown $FILE_ID
+gdown $FILE_ID
 
 # Begin install of TAK Server
 
