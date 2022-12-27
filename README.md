@@ -1,2 +1,2 @@
 # TAK-Server-Rocky-Script
-A script to get a basic TAK Server up and running in Rocky Linux.
+Scripts to get a basic TAK Server up and running with certificate enrollment. Specifically in Rocky and CentOS.
