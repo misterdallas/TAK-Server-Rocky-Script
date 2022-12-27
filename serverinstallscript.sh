@@ -1,8 +1,9 @@
 #!/bin/bash
-sudo yum update -y
-
 echo "Running this script will install everything required to get a TAK Server operational within Rocky Linux. Some portions of the install may take a while. Please be patient."
 read -p "Press ENTER to begin."
+
+# Update OS
+sudo yum update -y
 
 # Increase system limit for number of concurrent TCP connections
 echo -e"* soft nofile 32768\n* hard nofile 32768" |sudo  tee --append /etc/security/limits.conf>/dev/null
