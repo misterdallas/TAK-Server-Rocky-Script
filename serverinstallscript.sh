@@ -13,6 +13,9 @@ echo -e"* soft nofile 32768\n* hard nofile 32768" |sudo  tee --append /etc/secur
 # Install EPEL
 sudo yum install epel-release -y
 
+# Install Nano
+sudo dnf install nano -y
+
 # Install PostgreSQL and PostGIS packages
 sudo dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 
@@ -83,3 +86,20 @@ sudo systemctl start takserver
 
 # Enable TAK Server auto-start
 sudo systemctl enable takserver
+
+# Install Firewalld
+sudo yum install firewalld
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
+sudo systemctl status firewalld
+
+# Configure Firewalld
+sudo firewall-cmd --zone=public --add-port 8080/tcp --permanent
+sudo firewall-cmd --zone=public --add-port 8088/tcp --permanent
+sudo firewall-cmd --zone=public --add-port 8089/tcp --permanent
+sudo firewall-cmd --zone=public --add-port 8443/tcp --permanent
+sudo firewall-cmd --zone=public --add-port 8444/tcp --permanent
+sudo firewall-cmd --zone=public --add-port 8446/tcp --permanent
+sudo firewall-cmd --zone=public --add-port 9000/tcp --permanent
+sudo firewall-cmd --zone=public --add-port 9001/tcp --permanent
+sudo firewall-cmd --reload
