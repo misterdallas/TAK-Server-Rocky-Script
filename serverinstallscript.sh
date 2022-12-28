@@ -1,5 +1,7 @@
 #!/bin/bash
 echo "Running this script will install everything required to get a TAK Server operational within Rocky Linux. Some portions of the install may take a while. Please be patient."
+echo "Ensure that you've made the serverinstallscript.sh executable with 'chmod +x serverinstallscript.sh'"
+echo "Also, please ensure you run the script from your /root directory"
 read -p "Press ENTER to begin."
 
 # Update OS
