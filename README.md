@@ -5,6 +5,7 @@ This script will get a basic TAK Server installed on Rocky 8 in about 15 minutes
 ## ****** BEFORE RUNNING THE SCRIPT *****
 
 ### Download the takserver-4.8-RELEASE31.noarch.rpm from https://tak.gov and add it to your Google Drive
+### Ensure the Google Drive file's "General access" is set to "Anyone with the link"
 
 ### Get the repo on your VPS w/ git
 ```
