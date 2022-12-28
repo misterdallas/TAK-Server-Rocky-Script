@@ -14,7 +14,7 @@ git clone https://github.com/misterdallas/TAK-Server-Rocky-Script.git
 ```
 ### Make the script executable
 ```
-cd /TAK-Server-Rocky-Script
+cd TAK-Server-Rocky-Script
 chmod +x serverinstallscript.sh
 ```
 ## ***** EXECUTE THE SCRIPT *****
