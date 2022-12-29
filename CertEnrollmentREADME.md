@@ -15,7 +15,7 @@ cd /opt/tak/certs
 sudo su tak
 ```
 
-#### Make Root Certificate Authority == **Name RootCa something unique**
+#### Make Root Certificate Authority -- **Name RootCa something unique**
 ```
 ./makeRootCa.sh
 ```
