@@ -1,4 +1,4 @@
-# Running this guide will enable certificate enrollment for your TAK Server. Please follow the prompts when necessary.
+# Following this guide will enable certificate enrollment for your TAK Server. Please follow the prompts when necessary.
 
 ## YOU NEED TO EDIT THE cert-metadata.sh FILE LOCATED IN /opt/tak/certs BEFORE FOLLOWING THIS GUIDE.
 
