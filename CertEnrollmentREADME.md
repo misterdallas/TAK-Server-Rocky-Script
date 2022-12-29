@@ -2,12 +2,12 @@
 
 ## YOU NEED TO EDIT THE cert-metadata.sh FILE LOCATED IN /opt/tak/certs BEFORE FOLLOWING THIS GUIDE.
 
-**Example:**
-COUNTRY=**US** *2 letters*
-STATE=**FL** *2 letters*
-CITY=**MI** *2 letters*
-ORGANIZATION=**TC** *Whatever you want*
-ORGANIZATIONAL_UNIT=**TAK** *Whatever you want*
+**Example:**  
+COUNTRY=**US** *2 letters*  
+STATE=**FL** *2 letters*  
+CITY=**MI** *2 letters*  
+ORGANIZATION=**TC** *Whatever you want*  
+ORGANIZATIONAL_UNIT=**TAK** *Whatever you want*  
 
 #### Move to cert directory and login as tak user
 ```
