@@ -15,17 +15,17 @@ cd /opt/tak/certs
 sudo su tak
 ```
 
-#### Make Root Certificate Authority **Name RootCa something unique**
+#### Make Root Certificate Authority == **Name RootCa something unique**
 ```
 ./makeRootCa.sh
 ```
 
-#### Make Intermediate Certificate **intermediate-"NAME"** This is your intermediate cert you issue out for Certificate Enrollment
+#### Make Intermediate Certificate -- **intermediate-"NAME"** This is your intermediate cert you issue out for Certificate Enrollment
 ```
 ./makeCert.sh ca
 ```
 
-#### Make Server Certificate **"takserver"** can be changed; however, it's not advisable
+#### Make Server Certificate -- **"takserver"** can be changed; however, it's not advisable
 ```
 ./makeCert.sh server takserver
 ```
