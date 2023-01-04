@@ -103,3 +103,17 @@ sudo firewall-cmd --zone=public --add-port 8446/tcp --permanent
 sudo firewall-cmd --zone=public --add-port 9000/tcp --permanent
 sudo firewall-cmd --zone=public --add-port 9001/tcp --permanent
 sudo firewall-cmd --reload
+
+echo "********** INSTALLATION COMPLETE! **********"
+echo ""
+echo "Access your your TAK server via web browser"
+echo ""
+echo "http://YOURIP:8080 for initial setup"
+echo ""
+echo "http://YOURIP:8446 unsecure connection"
+echo "|"
+echo " ---> requires admin account creation"
+echo ""
+echo "https://YOURIP:8443 secure connection"
+echo "|"
+echo " ---> requires certificate creation"
